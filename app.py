@@ -8,10 +8,18 @@ from langchain.chat_models import ChatOpenAI
 from langchain.memory import ConversationSummaryMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain_google_genai import ChatGoogleGenerativeAI
+import subprocess
 
 app = Flask(__name__)
 
 load_dotenv()
+
+"""# Run store_index.py script
+def run_store_index():
+    subprocess.run(["python", "store_index.py"])
+
+# Initialize vector database
+run_store_index()"""
 
 embeddings = load_embedding()
 persist_directory = "db"
