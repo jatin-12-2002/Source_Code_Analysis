@@ -10,7 +10,7 @@ os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY"""
 
 
 
-url = "https://github.com/entbappy/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC"
+url = "https://github.com/jatin-12-2002/Chest-Disease-Classification-Final-Version"
 
 repo_ingestion(url)
 
